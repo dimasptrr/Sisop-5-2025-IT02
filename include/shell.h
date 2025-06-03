@@ -5,6 +5,10 @@
 
 void shell();
 void parseCommand(char *buf, char *cmd, char arg[2][64]);
+void setColorRed();
+void setColorYellow();
+void setColorBlue();
+void resetColor();
 
 // Tambahkan fungsi bila perlu
 
