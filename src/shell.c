@@ -69,10 +69,10 @@ void shell() {
     if (strcmp(cmd, "yogurt")) {
       randomAnswer();
 
-    } else if (strcmp(cmd, "yo")) {
+    } else if (strcmp(cmd, "yo") && arg[0][0] == '\0') {
       printString("gurt\r\n");
 
-    } else if (strcmp(cmd, "gurt")) {
+    } else if (strcmp(cmd, "gurt")&& arg[0][0] == '\0') {
       printString("yo\r\n");
 
     } else if (strcmp(cmd, "user")) {
